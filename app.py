@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
+import imblearn
+
 # import time
 # import openai
 # import joblib
