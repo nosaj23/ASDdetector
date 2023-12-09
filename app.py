@@ -71,7 +71,7 @@ st.image("images/ASD Header Option 2 (with kids).png")
 #st.title("Quantitative Checklist for Autism in Toddlers (Q-CHAT)")
 
 st.write("""    
-    **Coach Nadia** utilizes the Q-CHAT-10 (Quantitative Checklist for Autism in Toddlers) to screen toddlers for signs of autism with proprietary machine learning algorithm to screen toddlers for signs of autism.. 
+    **Coach Nadia** utilizes the Q-CHAT-10 (Quantitative Checklist for Autism in Toddlers) with proprietary machine learning algorithm to screen toddlers for signs of autism.. 
     **Typically applicable to children aged between 18 and 24 months (less than 4 years old)**, the Q-CHAT-10 serves as a tool for 
     identifying children who may benefit a more comprehensive assessment for potential Autism Spectrum Disorders
     """)
