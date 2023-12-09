@@ -165,11 +165,13 @@ def predict_data():
     input_data = np.array(input_resp).reshape(1, -1)
     prediction = model.predict(input_data)
 
+    pred_int = prediction[0]
+
     # 0 - Severe Symptoms
     # 1 - Mild Symptoms
     # 2 - Typically Developing
 
-    return prediction
+    return pred_int
 
     
 #######################################################
