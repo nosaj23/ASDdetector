@@ -4,3 +4,4 @@ numpy
 matplotlib
 seaborn
 imbalanced-learn
+scikit-learn==1.2.2
