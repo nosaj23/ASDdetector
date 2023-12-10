@@ -251,7 +251,7 @@ def show_results():
 
     st.session_state.pred = predict_data()
      
-    if st.session_state.pred == 0:      # 0 - Severe Symptoms
+    if st.session_state.pred == 2:      # 2 - Severe Symptoms
         st.session_state.model_result = f"""
 The child has several risk factors and symptoms that are usually associated to ASD. 
 ASD screening by a medical professional is strongly recommended.
@@ -263,7 +263,7 @@ The child has some risk factors and symptoms that may be associated to ASD.
 Keep monitoring your child closely and consider ASD screening by a medical professional.
 """
         
-    else:                               # 2 - Typically Developing
+    else:                               # 0 - Typically Developing
         st.session_state.model_result = f"""
 The child is healthy and exhibiting appropriate behavior for their age. 
 There is no need for further ASD screening.
